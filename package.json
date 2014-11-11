@@ -7,6 +7,9 @@
     "type": "MIT",
     "url": "https://raw.github.com/ngbp/ngbp/master/LICENSE"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "bugs": "https://github.com/ngbp/ngbp/issues",
   "repository": {
     "type": "git",
