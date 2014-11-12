@@ -110,7 +110,8 @@ angular.module( 'ngBoilerplate.home', [
         // 2.b
         if ( $scope.sum > 0 && $scope.max1 > 0 && $scope.max2 > 0 && $scope.max3 > 0 &&
            ($scope.sum == $scope.max1 || $scope.sum == $scope.max2 || $scope.sum == $scope.max3) ) {
-          sendMessage(timer);
+          console.log("2b matched");
+          //sendMessage(timer);
         }
         //Immediate volume is above threshold
         if ( $scope.soundMeter.instant > $scope.threshold ) {
